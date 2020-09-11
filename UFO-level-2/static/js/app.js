@@ -1,10 +1,6 @@
 // from data.js
 var tableData = data; // y change the variabe name?
-// YOUR CODE HERE!
-
-
-
-
+// YOUR CODE HERE
 
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
@@ -57,7 +53,6 @@ function createFilters(filterData, locations) {
 createFilters(filterData, formLocations)
 
 var tbody = d3.select("tbody");
-
 
 function createTable(tableData) {
     tbody.html("")
